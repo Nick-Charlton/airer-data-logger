@@ -1,5 +1,7 @@
 # WashingLine
 
+This project uses a Particle Argon MC to capture X and Y axes strain data from an outdoor rotary clothes airer and data from an anemometer. The data is added to a Google Sheets document through a webhook and some Apps Script code, which is then retrieved and processed with a Python script. 
+
 This firmware project was created using [Particle Developer Tools](https://www.particle.io/developer-tools/) and is compatible with all [Particle Devices](https://www.particle.io/devices/).
 
 Feel free to replace this README.md file with your own content, or keep it for reference.
