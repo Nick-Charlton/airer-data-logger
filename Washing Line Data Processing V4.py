@@ -6,7 +6,7 @@ from scipy.signal import find_peaks
 
 # Set up credentials
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-credentials = ServiceAccountCredentials.from_json_keyfile_name('Z:\\Team (Personal Folders)\\Nick Charlton\\PythonProjects\\washing-line-96317414eb79.json', scope)
+credentials = ServiceAccountCredentials.from_json_keyfile_name('Z:\\xxxx.json', scope)
 gc = gspread.authorize(credentials)
 
 # Open the Google Spreadsheet using its title
